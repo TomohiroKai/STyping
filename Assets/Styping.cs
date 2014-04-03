@@ -66,10 +66,10 @@ public class Styping : MonoBehaviour {
 				}
 			}
 			else{
-					upcheck = 0;
-				}
-				e.type = EventType.Ignore;
+				upcheck = 0;
 			}
+			e.type = EventType.Ignore;
+		}
 }
 
 bool checkCorrect(){
